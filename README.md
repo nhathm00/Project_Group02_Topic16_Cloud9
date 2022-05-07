@@ -96,7 +96,31 @@
 #### **Một số ý tưởng cho website**:
 + phân trang
 + công cụ tìm kiếm
-### **How to Deploy Spring Boot Application to AWS Elastic Beanstalk**
+## **Deploy Spring Boot Application to AWS Elastic Beanstalk**
+### **Tổng quan về Elastic Beanstalk**
+
+#### **Elastic Beanstalk là gì ?**
+-	**Elastic Beanstalk** là một dịch vụ điều phối khá dễ sử dụng bởi AWS để triển khai và mở rộng các ứng dụng web và dịch vụ web. Nó hỗ trợ các ngôn ngữ như Java, .NET, PHP, Node.js, Python, Ruby và Go ,..
+-	Hơn nữa, **Elastic Beanstalk** cho phép bạn triển khai các ứng dụng của mình trên các máy chủ như Apache, Nginx, Passenger, Tomcat, IIS và Docker.
+-	Quy trình làm việc của Elastic Beanstalk :
+-	![How AWS Elastic Beanstalk works](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/images/clearbox-flow-00.png)
+
+### **Làm thế nào để triển khai một ứng dụng với AWS Elastic Beanstalk**
+-	Để sử dụng Elastic Beanstalk, bạn tạo một ứng dụng, tải lên phiên bản ứng dụng dưới dạng gói nguồn ứng dụng (ví dụ: tệp java .war) lên Elastic Beanstalk, sau đó cung cấp một số thông tin về ứng dụng. Elastic Beanstalk tự động khởi chạy một môi trường và tạo và định cấu hình các tài nguyên AWS cần thiết để chạy mã của bạn. Sau khi môi trường của bạn được ra mắt, sau đó bạn có thể quản lý môi trường của mình và triển khai các phiên bản ứng dụng mới.
+
+### **Các bước triển khai một ứng dụng Spring Boot với AWS Elastic Beanstalk**
+-	**Bước 1** :  	Tạo một dự án Spring Boot bằng cách sử dụng **Spring Initializr**
+-	**Bước 2** :  	Import dự án vào IDE yêu thích của bạn
+-	**Bước 3** :	Thêm một **RestController** để có thể kiểm tra
+-	**Bước 4** :	Kiểm tra ứng dụng cục bộ
+-	**Bước 5** :	Chuẩn bị final jar file
+-	**Bước 6** :	Login vào AWS Management Console và mở Elastic Beanstalk
+-	**Bước 7** :	Tạo một ứng dụng (Application)
+-	**Bước 8** :	Thay đổi port cho ứng dụng
+-	**Bước 9** :	Kiểm tra Spring Boot Application Deployed trên Elastic Beanstalk
+-	**Bước 10** :	Update ứng dụng Spring Boot của bạn 
+
+
 
 ### **Tài liệu Tham khảo** 
 ##### **AWS Cloud9** : https://docs.aws.amazon.com/cloud9/latest/user-guide/welcome.html
