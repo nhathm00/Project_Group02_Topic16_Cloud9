@@ -96,7 +96,7 @@
 #### **Một số ý tưởng cho website**:
 + phân trang
 + công cụ tìm kiếm
-### ** How to Deploy Spring Boot Application to AWS Elastic Beanstalk **
+### **How to Deploy Spring Boot Application to AWS Elastic Beanstalk**
 
 ### **Tài liệu Tham khảo** 
 ##### **AWS Cloud9** : https://docs.aws.amazon.com/cloud9/latest/user-guide/welcome.html
