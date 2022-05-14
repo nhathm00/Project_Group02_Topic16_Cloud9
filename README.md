@@ -111,7 +111,7 @@
 ### **Các bước triển khai một ứng dụng Spring Boot với AWS Elastic Beanstalk**
 -	**Bước 1** :  	Tạo một dự án Spring Boot bằng cách sử dụng **Spring Initializr**
 -	**Bước 2** :  	Import dự án vào IDE yêu thích của bạn
--	**Bước 3** :	Thêm một **RestController** để có thể kiểm tra
+-	**Bước 3** :	Thêm một **TestController** để có thể kiểm tra
 -	**Bước 4** :	Kiểm tra ứng dụng cục bộ
 -	**Bước 5** :	Chuẩn bị final jar file
 -	**Bước 6** :	Login vào AWS Management Console và mở Elastic Beanstalk
