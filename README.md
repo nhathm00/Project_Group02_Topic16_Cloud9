@@ -54,6 +54,38 @@
 	- `cd my-app`
 	- `mvn package`
 	- `java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App`
+### **Quản lý và giám sát các tài nguyên**
+#### **CloudWatch**
+	Amazon CloudWatch là một dịch vụ theo dõi và quan sát được tạo cho các kỹ sư DevOps, nhà phát triển, kỹ sư về tính ổn định trang (SRE), nhà quản lý CNTT và chủ sở hữu sản phẩm. 
+	Dịch vụ CloudWatch cho chúng ta biết dữ liệu và thông tin chi tiết có thể thực thi để giám sát các ứng dụng, phản ứng với các thay đổi về hiệu năng trong toàn bộ hệ thống và mức sử dụng tài nguyên được tối ưu hóa. Dịch vụ này thu thập dữ liệu theo dõi và hoạt động dưới dạng nhật ký,chỉ số và sự kiện diễn ra. Chúng ta sẽ có được cái nhìn đầy đủ về các dịch vụ, ứng dụng và tài nguyên AWS đang chạy trên AWS và máy chủ tại chỗ. 
+	Chúng ta cũng có thể sử dụng dịch vụ CloudWatch để phát hiện hành vi bất thường trong môi trường của mình, trực quan hóa nhật ký bên cạnh chỉ số, thực hiện các thao tác tự động, đặt cảnh báo, khắc phục sự cố và khám phá thông tin chuyên sâu để ứng dụng của chúng ta vận hành ổn định.
+##### **Lợi ích :** 
+-	Giám sát với duy nhất một nền tảng
+-	Các chỉ số trên AWS và máy chủ tại chỗ được thu thập
+-	Tối ưu hóa tài nguyên và cải thiện hiệu năng vận hành
+-	Nắm rõ từng bước chi tiết về hoạt động vận hành
+-	Hành động dựa trên thông tin được rút ra từ nhật ký	
+##### **Trường hợp sử dụng :** 
+-	Theo dõi giám sát và kịp thời khắc phục sự cố cơ sở hạ tầng
+-	Cải thiện hiệu năng và thời gian xử lý trung bình trên hệ thống
+-	Chủ động thay đổi và tối ưu hóa các tài nguyên hệ thống
+-	Theo dõi và giám sát các ứng dụng trên toàn hệ thống
+-	Phân tích và khả năng giám sát
+#### **CloudTrail**
+	Dịch vụ CloudTrail theo dõi hoạt động của người dùng và mức sử dụng API của họ. Dịch vụ này theo dõi và ghi lại hoạt động của tài khoản trên khắp cơ sở hạ tầng AWS, trao quyền kiểm soát các hành động lưu trữ, phân tích và khắc phục cho người dùng.
+##### **Trường hợp sử dụng :** 
+-	Hoạt động kiểm tra và giám sát thường xuyên để phát hiện bất thường
+-	Xác định các sự cố bảo mật và kịp thời khắc phục
+-	Kịp thời khắc phục những sự cố hoạt động nhanh chóng 
+### **Tính toán chi phí thực tế**  
+#### **Cloud Budget**
+	AWS Budgets cho phép người dùng đặt ngân sách tùy chỉnh để theo dõi chi phí sử dụng đơn giản nhất đến phức tạp nhất. Với dịch vụ này, chúng ta có thể lựa chọn được cảnh báo qua email hoặc SNS khi chi phí vượt mức cho phép.
+	Với dịch vụ này, ta cũng có thể định cấu hình các hành động cụ thể để kịp thời phản hồi chi phí và mức sử dụng của mình, nếu chi phí hoặc mức sử dụng vượt quá hoặc được dự báo là vượt quá ngưỡng cho phép, các hành động có thể được thực hiện tự động.	
+##### **Lợi ích :** 
+-	Tùy chỉnh ngân sách tùy để đáp ứng nhu cầu của người dùng
+-	Các cảnh báo và báo cáo được cập nhật thường xuyên
+-	Ngân sách chi tiết được thống kê theo thời gian
+
 ## **Phần 2 : Viết ứng dụng minh họa**
 ### <mark>**E-commerce Web Application**</mark>
 #### **Phiên bản** : 
