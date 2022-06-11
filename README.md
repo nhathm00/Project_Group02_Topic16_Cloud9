@@ -39,22 +39,17 @@
 
 ### **1.2 Các bước cài đặt Cloud9** 
 - 	[Thông tin caì đặt AWS Cloud9](https://docs.aws.amazon.com/cloud9/latest/user-guide/setting-up.html)
-### **1.3 Setup môi trường và chạy ứng dụng maven đơn giản**
--	Cài đặt java 8
-	- `sudo apt update`
-	- `sudo apt install -y openjdk-8-jdk`
-	- `sudo update-alternatives --config java` và chọn phiên bản phù hợp , sau đó ENTER
-	- `sudo update-alternatives --config javac` và chọn phiên bản phù hợp , sau đó ENTER
--	Cài đặt maven 3
-	- Với ubuntu server :
-		- `sudo apt install -y maven`
-		- `mvn -version`
--	Tạo ứng dụng maven đơn giản và chạy thử
-	- `mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
-	- `cd my-app`
-	- `mvn package`
-	- `java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App`
-### **Quản lý và giám sát các tài nguyên**
+### **1.3 Ưu nhược điểm của Cloud9**
+##### **Cloud 9 có một số ưu điểm nhất định ví dụ như:**
+-	Đầu tiên phải kể đến đó là ưu điểm có thể code ở bất kỳ thời gian nào và ở bất cứ nơi nào miễn là người dùng có máy tính, trình duyệt cài sẵn và một môi trường có wifi là đủ
+-	Không cần cài đặt môi trường lằng nhằng, chỉ cần create workspace hoặc clone project từ github về là đã có thể bắt tay vào công việc ngay và luôn
+-	Có hẳn 1 máy ảo để làm việc và cài đặt thêm bất cứ thứ gì mình muốn và phù hợp với dự án đang làm
+-	Deploy được lên host public có thể cho người khác xem luôn thành quả của mình
+-	Có thể làm việc với từng thành viên trong nhóm 1 cách thuận lợi và dễ dàng
+##### **Nhưng bên cạnh đó còn một số hạn chế:**
+-	Cấu hình workspace của tài khoản free khá yếu có thể sẽ không đủ sức chạy nổi các dự án phức tạp
+-	Vì là trình IDE online nên đôi lúc gõ code cảm giác vẫn có sự delay
+### ** 1.4 Quản lý và giám sát các tài nguyên**
 #### **CloudWatch**
 -	Amazon CloudWatch là một dịch vụ theo dõi và quan sát được tạo cho các kỹ sư DevOps, nhà phát triển, kỹ sư về tính ổn định trang (SRE), nhà quản lý CNTT và chủ sở hữu sản phẩm. 
 -	Dịch vụ CloudWatch cho chúng ta biết dữ liệu và thông tin chi tiết có thể thực thi để giám sát các ứng dụng, phản ứng với các thay đổi về hiệu năng trong toàn bộ hệ thống và mức sử dụng tài nguyên được tối ưu hóa. Dịch vụ này thu thập dữ liệu theo dõi và hoạt động dưới dạng nhật ký,chỉ số và sự kiện diễn ra. Chúng ta sẽ có được cái nhìn đầy đủ về các dịch vụ, ứng dụng và tài nguyên AWS đang chạy trên AWS và máy chủ tại chỗ. 
@@ -77,7 +72,7 @@
 -	Hoạt động kiểm tra và giám sát thường xuyên để phát hiện bất thường
 -	Xác định các sự cố bảo mật và kịp thời khắc phục
 -	Kịp thời khắc phục những sự cố hoạt động nhanh chóng 
-### **Tính toán chi phí thực tế**  
+### **1.5 Tính toán chi phí thực tế**  
 #### **Cloud Budget**
 -	AWS Budgets cho phép người dùng đặt ngân sách tùy chỉnh để theo dõi chi phí sử dụng đơn giản nhất đến phức tạp nhất. Với dịch vụ này, chúng ta có thể lựa chọn được cảnh báo qua email hoặc SNS khi chi phí vượt mức cho phép.
 -	Với dịch vụ này, ta cũng có thể định cấu hình các hành động cụ thể để kịp thời phản hồi chi phí và mức sử dụng của mình, nếu chi phí hoặc mức sử dụng vượt quá hoặc được dự báo là vượt quá ngưỡng cho phép, các hành động có thể được thực hiện tự động.	
@@ -87,6 +82,21 @@
 -	Ngân sách chi tiết được thống kê theo thời gian
 
 ## **Phần 2 : Viết ứng dụng minh họa**
+### ** Setup môi trường và chạy ứng dụng maven đơn giản**
+-	Cài đặt java 8
+	- `sudo apt update`
+	- `sudo apt install -y openjdk-8-jdk`
+	- `sudo update-alternatives --config java` và chọn phiên bản phù hợp , sau đó ENTER
+	- `sudo update-alternatives --config javac` và chọn phiên bản phù hợp , sau đó ENTER
+-	Cài đặt maven 3
+	- Với ubuntu server :
+		- `sudo apt install -y maven`
+		- `mvn -version`
+-	Tạo ứng dụng maven đơn giản và chạy thử
+	- `mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
+	- `cd my-app`
+	- `mvn package`
+	- `java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App`
 ### <mark>**E-commerce Web Application**</mark>
 #### **Phiên bản** : 
 -	Spring Boot 2.6.7
