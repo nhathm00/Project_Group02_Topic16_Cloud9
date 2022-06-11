@@ -49,7 +49,7 @@
 ##### **Nhưng bên cạnh đó còn một số hạn chế:**
 -	Cấu hình workspace của tài khoản free khá yếu có thể sẽ không đủ sức chạy nổi các dự án phức tạp
 -	Vì là trình IDE online nên đôi lúc gõ code cảm giác vẫn có sự delay
-### ** 1.4 Quản lý và giám sát các tài nguyên**
+### **1.4 Quản lý và giám sát các tài nguyên**
 #### **CloudWatch**
 -	Amazon CloudWatch là một dịch vụ theo dõi và quan sát được tạo cho các kỹ sư DevOps, nhà phát triển, kỹ sư về tính ổn định trang (SRE), nhà quản lý CNTT và chủ sở hữu sản phẩm. 
 -	Dịch vụ CloudWatch cho chúng ta biết dữ liệu và thông tin chi tiết có thể thực thi để giám sát các ứng dụng, phản ứng với các thay đổi về hiệu năng trong toàn bộ hệ thống và mức sử dụng tài nguyên được tối ưu hóa. Dịch vụ này thu thập dữ liệu theo dõi và hoạt động dưới dạng nhật ký,chỉ số và sự kiện diễn ra. Chúng ta sẽ có được cái nhìn đầy đủ về các dịch vụ, ứng dụng và tài nguyên AWS đang chạy trên AWS và máy chủ tại chỗ. 
