@@ -82,7 +82,7 @@
 -	Ngân sách chi tiết được thống kê theo thời gian
 
 ## **Phần 2 : Viết ứng dụng minh họa**
-### ** Setup môi trường và chạy ứng dụng maven đơn giản**
+### **Setup môi trường và chạy ứng dụng maven đơn giản**
 -	Cài đặt java 8
 	- `sudo apt update`
 	- `sudo apt install -y openjdk-8-jdk`
