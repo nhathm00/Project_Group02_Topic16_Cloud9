@@ -7,7 +7,7 @@
 -	**AWS Cloud9** là một môi trường phát triển tích hợp, hoặc **IDE**.
 -	**AWS Cloud9 IDE** cung cấp trải nghiệm chỉnh sửa mã phong phú với sự hỗ trợ cho một số ngôn ngữ lập trình và trình gỡ lỗi thời gian chạy và thiết bị đầu cuối tích hợp. Nó chứa một bộ công cụ mà bạn sử dụng để mã, hãy xây dựng, chạy, kiểm tra và gỡ lỗi và giúp bạn phát hành phần mềm về đám mây.
 -	Bạn truy cập **IDE AWS Cloud9** thông qua trình duyệt web. Bạn có thể định cấu hình **IDE** theo sở thích của bạn. Bạn có thể chuyển đổi các chủ đề màu, các phím tắt liên kết, cho phép lập trình ngôn ngữ và định dạng mã cú pháp cụ thể của ngôn ngữ, v.v.
-[![video](https://youtu.be/t5CFSzMcdXE?t=6)
+[![IMAGE ALT TEXT](https://i.ytimg.com/an_webp/t5CFSzMcdXE/mqdefault_6s.webp?du=3000&sqp=CLGl050G&rs=AOn4CLCeWoB4iLUZC5zn2g8sTiqOp4CSrA](https://youtu.be/t5CFSzMcdXE)
 #### **AWS Cloud9 hoạt động như thế nào?**
 -	Như sơ đồ dưới đây , bạn sử dụng **AWS Cloud9 IDE**, chạy trong trình duyệt web trên máy tính cục bộ của mình, để tương tác với môi trường **AWS Cloud9** của bạn. Tài nguyên điện toán (ví dụ: phiên bản **Amazon EC2** hoặc máy chủ của riêng bạn) kết nối với môi trường đó. Cuối cùng, công việc của bạn được lưu trữ trong kho lưu trữ **CODECOMMIT** hoặc loại kho lưu trữ từ xa khác.
 -	![How AWS Cloud9 works](https://docs.aws.amazon.com/cloud9/latest/user-guide/images/arch.png)
